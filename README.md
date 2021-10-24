@@ -1,4 +1,4 @@
-# 🌩️:Python Weather API Challenge:partly_sunny:
+# 🌩️Python Weather API Challenge:partly_sunny:
 
 # Python API Homework - What's the Weather Like?
 
