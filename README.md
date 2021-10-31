@@ -75,9 +75,10 @@ Values above 122.5 are possibly outliers
 
 
 # Part II - VacationPy
-Now let's use your skills in working with weather data to plan future vacations. Use jupyter-gmaps and the Google Places API for this part of the assignment.
+<p align="center"> Now let's use your skills in working with weather data to plan future vacations.</p>
+<p align="center"> Use jupyter-gmaps and the Google Places API for this part of the assignment. </p>
 
-Create a heat map that displays the humidity for every city from Part I.
+- Create a heat map that displays the humidity for every city from Part I.
 ```
 #Pulling in Gmaps/generate heat map
 
