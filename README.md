@@ -50,6 +50,15 @@ A max temperature lower than 80 degrees but higher than 70.
 Wind speed less than 10 mph.
 Zero cloudiness.
 
+```
+filtered_cities = cities_new_df.loc[(cities_new_df["Max Temp"] <= 80) & 
+                                    (cities_new_df["Max Temp"] >= 70) & 
+                                    (cities_new_df["Wind Speed"] < 10) &  
+                                    (cities_new_df["Cloudiness"] == 0)]
+                                
+filtered_cities
+```
+
 
 
 
