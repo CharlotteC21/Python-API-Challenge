@@ -81,6 +81,9 @@ heat_layer = gmaps.heatmap_layer(locations, weights = weight,
 fig.add_layer(heat_layer)
 fig
 ```
+![map(2)](https://user-images.githubusercontent.com/91695375/139562831-225d86b1-0c0d-4ea7-9a5e-cd597e59bd8d.png)
+
+
 Narrow down the DataFrame to find your ideal weather condition. For example:
 A max temperature lower than 80 degrees but higher than 70.
 Wind speed less than 10 mph.
