@@ -42,6 +42,16 @@ Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
 # Part II - VacationPy
 Now let's use your skills in working with weather data to plan future vacations. Use jupyter-gmaps and the Google Places API for this part of the assignment.
+```
+#Pulling in Gmaps/generate heat map
+
+fig = gmaps.figure(center=(22.0, -1.0), zoom_level = 2)
+heat_layer = gmaps.heatmap_layer(locations, weights = weight, 
+                                 dissipating = False, max_intensity = np.max(weight),
+                                 point_radius = 4)
+fig.add_layer(heat_layer)
+fig
+```
 
 Create a heat map that displays the humidity for every city from Part I.
 
