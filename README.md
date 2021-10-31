@@ -15,9 +15,24 @@ The first requirement is to create a series of scatter plots to showcase the fol
 
 >
 - Temperature (F) vs. Latitude
+
+![image](https://user-images.githubusercontent.com/91695375/139562655-9533a28f-26dd-4075-9f98-c24718b938f5.png)
+>
 - Humidity (%) vs. Latitude
+
+
+![image](https://user-images.githubusercontent.com/91695375/139562679-c0ab1648-3211-42f1-80e4-056b2e54f74d.png)
+>
 - Cloudiness (%) vs. Latitude
+
+
+![image](https://user-images.githubusercontent.com/91695375/139562687-316fc966-c4b2-4e84-858a-37a64fcb770d.png)
+>
 - Wind Speed (mph) vs. Latitude
+
+
+![image](https://user-images.githubusercontent.com/91695375/139562691-4da656ff-4e7d-4c81-8b59-8123ba28f965.png)
+
 >
 After each plot, add a sentence or two explaining what the code is analyzing.
 The second requirement is to run linear regression on each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
