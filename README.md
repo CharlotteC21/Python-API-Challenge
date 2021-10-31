@@ -42,6 +42,8 @@ Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
 # Part II - VacationPy
 Now let's use your skills in working with weather data to plan future vacations. Use jupyter-gmaps and the Google Places API for this part of the assignment.
+
+Create a heat map that displays the humidity for every city from Part I.
 ```
 #Pulling in Gmaps/generate heat map
 
@@ -52,9 +54,6 @@ heat_layer = gmaps.heatmap_layer(locations, weights = weight,
 fig.add_layer(heat_layer)
 fig
 ```
-
-Create a heat map that displays the humidity for every city from Part I.
-
 Narrow down the DataFrame to find your ideal weather condition. For example:
 A max temperature lower than 80 degrees but higher than 70.
 Wind speed less than 10 mph.
