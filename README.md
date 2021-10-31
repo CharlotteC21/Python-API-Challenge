@@ -17,21 +17,21 @@ The first requirement is to create a series of scatter plots to showcase the fol
 >
 
 >
-- Temperature (F) vs. Latitude
+- **Temperature (F) vs. Latitude**
 
 ![image](https://user-images.githubusercontent.com/91695375/139562655-9533a28f-26dd-4075-9f98-c24718b938f5.png)
 >
-- Humidity (%) vs. Latitude
+- **Humidity (%) vs. Latitude**
 
 
 ![image](https://user-images.githubusercontent.com/91695375/139562679-c0ab1648-3211-42f1-80e4-056b2e54f74d.png)
 >
-- Cloudiness (%) vs. Latitude
+- **Cloudiness (%) vs. Latitude**
 
 
 ![image](https://user-images.githubusercontent.com/91695375/139562687-316fc966-c4b2-4e84-858a-37a64fcb770d.png)
 >
-- Wind Speed (mph) vs. Latitude
+- **Wind Speed (mph) vs. Latitude**
 
 
 ![image](https://user-images.githubusercontent.com/91695375/139562691-4da656ff-4e7d-4c81-8b59-8123ba28f965.png)
@@ -43,21 +43,21 @@ The second requirement is to run linear regression on each relationship. This ti
 After each pair of plots, take the time to explain what the linear regression is modeling. For example, describe any relationships you notice and any other analysis you may have.
 >
 >
-- Northern Hemisphere - Temperature (F) vs. Latitude
+- **Northern Hemisphere - Temperature (F) vs. Latitude**
   - R-square value is: -0.77, which shows strong negative correlation between Lat & Max Temperature 🌡️
-- Southern Hemisphere - Temperature (F) vs. Latitude
+- **Southern Hemisphere - Temperature (F) vs. Latitude**
   - R-square value is: 0.38, which shows a moderately positive correlation between Lat & Max Temperature 🌡️
-- Northern Hemisphere - Humidity (%) vs. Latitude
+- **Northern Hemisphere - Humidity (%) vs. Latitude**
   - R-square value is: 0.22, which shows a weak positive correlation between Lat & Humidity 🌧️💧
-- Southern Hemisphere - Humidity (%) vs. Latitude
+- **Southern Hemisphere - Humidity (%) vs. Latitude**
   - R-square value is: 0.09, which shows a very weak positive correlation between Lat & Humidity 🌧️💧
-- Northern Hemisphere - Cloudiness (%) vs. Latitude
+- **Northern Hemisphere - Cloudiness (%) vs. Latitude**
   - R-square value is: 0.23, which shows a moderately positive correlation between Lat & Cloudiness ☁️
-- Southern Hemisphere - Cloudiness (%) vs. Latitude
+- **Southern Hemisphere - Cloudiness (%) vs. Latitude**
   - R-square value is: 0.07, which shows a very weak positive correlation between Lat & Cloudiness ☁️
-- Northern Hemisphere - Wind Speed (mph) vs. Latitude
+- **Northern Hemisphere - Wind Speed (mph) vs. Latitude**
   - R-square value is: 0.19, which shows a weak positive correlation between Lat & Wind Speed 🌬️
-- Southern Hemisphere - Wind Speed (mph) vs. Latitude
+- **Southern Hemisphere - Wind Speed (mph) vs. Latitude**
   - R-square value is: 0.13, which shows a weak positive correlation between Lat & Wind Speed 🌬️
 >
 >
