@@ -59,6 +59,9 @@ A max temperature lower than 80 degrees but higher than 70.
 Wind speed less than 10 mph.
 Zero cloudiness.
 
+Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
+
+Plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
 ```
 filtered_cities = cities_new_df.loc[(cities_new_df["Max Temp"] <= 80) & 
                                     (cities_new_df["Max Temp"] >= 70) & 
@@ -67,11 +70,3 @@ filtered_cities = cities_new_df.loc[(cities_new_df["Max Temp"] <= 80) &
                                 
 filtered_cities
 ```
-
-
-
-
-
-Using Google Places API to find the first hotel for each city located within 5000 meters of your coordinates.
-
-Plot the hotels on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
