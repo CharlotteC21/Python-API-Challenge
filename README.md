@@ -39,6 +39,9 @@ The first requirement is to create a series of scatter plots to showcase the fol
 >
 After each plot, add a sentence or two explaining what the code is analyzing.
 The second requirement is to run linear regression on each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+```
+These graphs can be found in the Weather.py notebook!
+```
 
 After each pair of plots, take the time to explain what the linear regression is modeling. For example, describe any relationships you notice and any other analysis you may have.
 >
