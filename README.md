@@ -110,3 +110,5 @@ filtered_cities
 <img width="728" alt="Screen Shot 2021-10-30 at 9 20 44 PM" src="https://user-images.githubusercontent.com/91695375/139562890-edfe60a1-c783-4d51-a19c-fbdebadee53c.png">
 
 ![map(1)](https://user-images.githubusercontent.com/91695375/139562815-570a6825-016a-47b9-8c24-29b4029bb4f9.png)
+
+😎 *Who's coming with me to Tenerife?!* 🌞
