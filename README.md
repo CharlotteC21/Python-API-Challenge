@@ -22,18 +22,27 @@ The first requirement is to create a series of scatter plots to showcase the fol
 After each plot, add a sentence or two explaining what the code is analyzing.
 The second requirement is to run linear regression on each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
+After each pair of plots, take the time to explain what the linear regression is modeling. For example, describe any relationships you notice and any other analysis you may have.
+>
 >
 - Northern Hemisphere - Temperature (F) vs. Latitude
+  - R-square value is: -0.86, which shows strong negative correlation between Lat & Max Temperature 🌡️
 - Southern Hemisphere - Temperature (F) vs. Latitude
+  - R-square value is: 0.75, which shows strong positive correlation between Lat & Max Temperature 🌡️
 - Northern Hemisphere - Humidity (%) vs. Latitude
+  - R-square value is: 0.22, which shows a mildly positive correlation between Lat & Humidity 🌧️💧
 - Southern Hemisphere - Humidity (%) vs. Latitude
+  - R-square value is: 0.09, which shows a weak positive correlation between Lat & Humidity 🌧️💧
 - Northern Hemisphere - Cloudiness (%) vs. Latitude
+  - R-square value is: 0.23, which shows a mildly positive correlation between Lat & Cloudiness ☁️
 - Southern Hemisphere - Cloudiness (%) vs. Latitude
+  - R-square value is: 0.07, which shows a weak positive correlation between Lat & Cloudiness ☁️
 - Northern Hemisphere - Wind Speed (mph) vs. Latitude
+  - R-square value is: 0.19, which shows a relatively weak positive correlation between Lat & Wind Speed 🌬️
 - Southern Hemisphere - Wind Speed (mph) vs. Latitude
+  - R-square value is: 0.13, which shows a relatively weak positive correlation between Lat & Wind Speed 🌬️
 >
-After each pair of plots, take the time to explain what the linear regression is modeling. For example, describe any relationships you notice and any other analysis you may have.
-
+>
 Randomly select at least 500 unique (non-repeat) cities based on latitude and longitude.
 Perform a weather check on each of the cities using a series of successive API calls.
 Include a print log of each city as it's being processed with the city number and city name.
