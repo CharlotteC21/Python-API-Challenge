@@ -97,3 +97,4 @@ filtered_cities = cities_new_df.loc[(cities_new_df["Max Temp"] <= 80) &
                                 
 filtered_cities
 ```
+![map(1)](https://user-images.githubusercontent.com/91695375/139562815-570a6825-016a-47b9-8c24-29b4029bb4f9.png)
