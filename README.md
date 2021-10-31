@@ -44,21 +44,21 @@ After each pair of plots, take the time to explain what the linear regression is
 >
 >
 - Northern Hemisphere - Temperature (F) vs. Latitude
-  - R-square value is: -0.86, which shows strong negative correlation between Lat & Max Temperature 🌡️
+  - R-square value is: -0.77, which shows strong negative correlation between Lat & Max Temperature 🌡️
 - Southern Hemisphere - Temperature (F) vs. Latitude
-  - R-square value is: 0.75, which shows strong positive correlation between Lat & Max Temperature 🌡️
+  - R-square value is: 0.38, which shows a moderately positive correlation between Lat & Max Temperature 🌡️
 - Northern Hemisphere - Humidity (%) vs. Latitude
-  - R-square value is: 0.22, which shows a mildly positive correlation between Lat & Humidity 🌧️💧
+  - R-square value is: 0.22, which shows a weak positive correlation between Lat & Humidity 🌧️💧
 - Southern Hemisphere - Humidity (%) vs. Latitude
-  - R-square value is: 0.09, which shows a weak positive correlation between Lat & Humidity 🌧️💧
+  - R-square value is: 0.09, which shows a very weak positive correlation between Lat & Humidity 🌧️💧
 - Northern Hemisphere - Cloudiness (%) vs. Latitude
-  - R-square value is: 0.23, which shows a mildly positive correlation between Lat & Cloudiness ☁️
+  - R-square value is: 0.23, which shows a moderately positive correlation between Lat & Cloudiness ☁️
 - Southern Hemisphere - Cloudiness (%) vs. Latitude
-  - R-square value is: 0.07, which shows a weak positive correlation between Lat & Cloudiness ☁️
+  - R-square value is: 0.07, which shows a very weak positive correlation between Lat & Cloudiness ☁️
 - Northern Hemisphere - Wind Speed (mph) vs. Latitude
-  - R-square value is: 0.19, which shows a relatively weak positive correlation between Lat & Wind Speed 🌬️
+  - R-square value is: 0.19, which shows a weak positive correlation between Lat & Wind Speed 🌬️
 - Southern Hemisphere - Wind Speed (mph) vs. Latitude
-  - R-square value is: 0.13, which shows a relatively weak positive correlation between Lat & Wind Speed 🌬️
+  - R-square value is: 0.13, which shows a weak positive correlation between Lat & Wind Speed 🌬️
 >
 >
 Randomly select at least 500 unique (non-repeat) cities based on latitude and longitude.
