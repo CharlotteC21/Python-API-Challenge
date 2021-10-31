@@ -1,5 +1,8 @@
 # 🌩️Python Weather API Challenge:partly_sunny:
 
+![equatorsign](https://user-images.githubusercontent.com/91695375/139562767-fa1b31b4-e106-489e-b4b7-d5d32542a5db.png)
+
+
 # Python API Homework - What's the Weather Like?
 
 # Background
